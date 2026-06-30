@@ -1,7 +1,5 @@
 """
 
-h2) Toll Plaza Simulation (Circular Queue)
-A toll plaza has a fixed capacity of 5 vehicles. If full, new vehicles must wait Implement a Circular Queue to simulate this, since it reuses empty slots without wasting memory.
 H3) The GPS Navigation System (Backtracking)
 You're building a GPS app like Google Maps for a hiking trail. The hiker moves through checkpoints. If they take a wrong tum, they hit "Go Back" to return to the previous checkpoint. But once they go back, they can also "Go Forward" if they change their mind again just like a browser's back/forward buttons
 
@@ -27,8 +25,6 @@ type(char)-records a character
 . undo() removes the last typed character
 getText()returns the current text
 
-c3) The Smart Printer Queue (Priority Queue)
-An office printer handles jobs in order, BUT jobs marked URGENT must be printed before normal jobs Design a system using two queues one for urgent, one for normal-and always drain urgent first
 """
 
 def attendance():
