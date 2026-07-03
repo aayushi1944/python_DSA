@@ -14,18 +14,18 @@ def binSearch(p):
     f=0   
     while(s <= e):
         mid=(s+e)//2
-        if l[mid]==p:
+        if l[mid]>=p:
+            e=mid-1 
             f=1
-            print("found at ",mid)
-            break
-        elif p > l[mid]:
-            s=mid+1 
         else:
-            e=mid-1
-    if f==0:
-        print("not  found")
+            s=mid+1
+    if f==1:
+        print("found at ",mid)
+    else:
+        print("not found")
+    for  i in  range(mid,len(l)):
+        print(l[i])
 
-
-binSearch(20000)
+binSearch(50000)
     
     
