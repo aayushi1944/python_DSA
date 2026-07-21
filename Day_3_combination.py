@@ -1,4 +1,5 @@
 """
+j
 H1) A security researcher is testing a 3-digit lock (digits 1-3 only, no repeats). 
 They need to generate every possible combination — a classic backtracking/permutation problem asked in 
 Google and Microsoft interviews.
