@@ -51,11 +51,19 @@ class LinkedList:
             return
         c=1
         tmp = self.head
-        while c < pos-1:
+        while c < pos-1 and tmp.next is not None:
             tmp = tmp.next
             c+=1
+        if tmp.next is None:
+            print("Position out of range")
+            return
         newNode.next = tmp.next
         tmp.next = newNode
+    
+    def deleteFirst(self):
+        
+
+
 
 
 
