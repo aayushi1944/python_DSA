@@ -62,6 +62,10 @@ class LinkedList:
                 t2 = t2.next
             t1 = t1.next
 
+  
+
+
+
     
 
      
@@ -71,7 +75,7 @@ head=None
 head2 = None
 
 while True:
-    ch=int(input("\n1=>create \n2=>traverse \n3=>Copy \n4=>Sorting \n0=>Exit \nEnter Your choice:"))
+    ch=int(input("\n1=>create \n2=>traverse \n3=>Copy \n4=>Sorting \n5=>Reerse \n0=>Exit \nEnter Your choice:"))
     
     if ch == 1:
         data=int(input("Enter Data:"))
@@ -83,6 +87,7 @@ while True:
         head2=ll.copyll(head)
     elif ch == 4:
         ll.sortLL(head)
+
     
 
     elif ch == 0:
